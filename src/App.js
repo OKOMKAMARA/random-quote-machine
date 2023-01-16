@@ -69,6 +69,9 @@ import './App.css';
                 <button onClick={getNewQuote} className="btn btn-primary" >
                   New Quote
                   </button>
+                  </div>
+                  
+               <div className='col-1'>
                   <a
               href= {
                 "https://twitter.com/intent/tweet?hashtags=quotes&related=freecodecamp&text=" +
@@ -81,6 +84,7 @@ import './App.css';
                  <i className='fa fa-twitter'></i>
                
               </a>
+           </div>
                <a
              href={
                "https://www.tumblr.com/widgets/share/tool?posttype=quote&tags=quotes,freecodecamp&caption=" +
@@ -94,15 +98,13 @@ import './App.css';
            >
              <i className="fa fa-tumblr"></i>
            </a>
-           </div>
+         </div>
+         </div>
            </div>
            </div>
          </div>
        </div>
-     </div>
-   </div>
- </div>
-</div>
+
 );
 }
 
@@ -111,3 +113,4 @@ export default App;
                 
               
 
+          
