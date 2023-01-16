@@ -69,9 +69,6 @@ import './App.css';
                 <button onClick={getNewQuote} className="btn btn-primary" >
                   New Quote
                   </button>
-                  
-                <div className='row justify-content-end'>
-                  <div className='col'>
                   <a
               href= {
                 "https://twitter.com/intent/tweet?hashtags=quotes&related=freecodecamp&text=" +
